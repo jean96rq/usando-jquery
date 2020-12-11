@@ -1,0 +1,91 @@
+body{
+    background-color: #00171f!important;
+}
+
+header h1{
+    
+    background-color:#333!important;
+    color:#00171f;
+  
+}
+.menu a{
+    color:#ccc!important;
+
+}
+.menu a:hover{
+    opacity: 0.8;
+}
+.btnMenu{
+   
+    color: #00171f!important;
+   
+}
+.contenido .post p{
+    color: #797979;
+    font-size: 15px!important;
+}
+img{
+    filter: grayscale(80%);
+}
+.contenido .sideBar h4{
+     color:#00171f!important;
+     background-color: #797979!important;
+     opacity: 0.6;
+}
+.button-js{
+    background-color:#333!important;
+    color: #ccc!important;
+}
+.button-js:hover{
+    opacity: 0.8;
+}
+.formLogin input{
+background-color: #333;
+border: none!important;
+outline:none;
+}
+.formLogin label{
+    color: #333;
+}
+.formLogin button{
+    color:#797979!important;  
+}
+
+/* -------------------------------- */
+.formularioContacto input{
+    background-color: #333;
+    border: none!important;
+    outline:none;
+    }
+    .formularioContacto label{
+        color: #333;
+    }
+    .formularioContacto button{
+        color:#797979!important;  
+    }
+    .formularioContacto select{
+        background-color: #333;
+        border: none!important;
+        color:#797979!important;
+    }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    background-color: #797979!important;
+    opacity: 0.6!important;
+    
+}
+.ui-accordion .ui-accordion-header{
+    color: #00171f!important;
+    background-color: #797979!important;
+    opacity: 0.6!important;
+}
+.ui-accordion .ui-accordion-content{
+  background-color: #00171f;
+  color: #ccc;
+}
+.ui-accordion .ui-accordion-content a{
+    color: #ccc;
+  }
+footer{
+    background-color:#333!important;
+    color: #00171f;
+}

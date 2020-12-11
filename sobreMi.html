@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <link id="temaOscuro" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="selectorTema">
+        <div title="tema claro" id="claro" class="temaClaro"></div>
+        <div title="tema oscuro" id="oscuro" class="temaOscuro"></div>
+    </div>
+    <header>
+        <h1>PROYECTO JS</h1>
+        <span id="btnMenu" class="btnMenu">&#9776;</span>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">INICIO</a></li>
+                <li><a href="reloj.html">RELOJ</a></li>
+                <li><a href="sobreMi.html">SOBRE MÍ</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="textoSobreMi"><h2>Sobre mí</h2><hr></div>
+        
+        <section class="contenido" id="contenido">
+           
+            <div class="arcondeon" id="acordeon">
+               
+                <h3>¿Quien soy?</h3>
+                <div>
+                    <p>Bienvenidos! Mi nombre es Jean Franco Rojas - Desarrollador Web, los invito a conocer mis <a target="_blank" href="https://jean96rq.github.io/portafolio-jean-2020/proyectos.html">proyectos</a> y compartir mi experiencia en distintos entornos del Desarrollo Web.</p>
+                </div>
+                <h3>Competencias</h3>
+                <div>
+                    <p>Gracias a las experiencias laborando en estos años, he adquirido y fortalecido mis habilidades con muchas ganas, para así tomar las mejores decisiones en cada tarea o proyecto que me encarguen y generar un valor agregado al equipo de trabajo</p>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Adaptación al cambio</li>
+                        <li>Resolución de conflictos</li>
+                        <li>Orientación al servicio</li>
+                        <li>Aprendizaje activo</li>
+                    </ul>
+                </div>
+                <h3>Intereses</h3>
+                <div>
+                    <p>Además de desarrollarme cómo programador web, disfruto de mi tiempo libre corriendo en las mañanas y caminar mientras escucho música. Además, me gusta ir al cine y ver distintos géneros de películas, entre mis favoritas las de ciencia ficción.</p>
+                    <p>Por otro lado, cuando me encuentro dentro de casa, juego algunos videojuegos. También, me interesa informarme y explorar acerca de los últimos avances tecnológicos y aprender cosas nuevas por medio de videos tutoriales acerca de todo sobre el mundo de la programación.</p>
+                </div>
+                
+            </div>
+            <aside class="sideBar" id="sideBar">
+                <div class="about" id="about">
+                    <h4>¿Quien soy?</h4>
+                    <img src="img/caracol.jpg" alt="Imagen Caracol">
+                    <p>
+                       
+                    </p>
+                </div>
+                <div class="login" id="login">
+                    <h4>Identificate</h4>
+                    <form class="formLogin" id="formLogin" action="">
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input placeholder="Jean Franco Rojas" type="text" name="name" id="name">
+                        <label for="correo">
+                            Correo
+                        </label>
+                        <input placeholder="jean96rq@gmail.com" type="text" name="correo" id="correo">
+                        <label for="contraseña">
+                            Contraseña
+                        </label>
+                        <input placeholder="contraseña" type="password" name="contraseña" id="contraseña">
+                        <button type="submit">Unirme</button>
+                    </form>
+                </div>
+            </aside>
+            
+        </section>
+    </main>
+    <footer>
+        <small>Realizado por Jean Rojas &copy;</small>
+        <span class="subir"><a href="">Ir arriba</a></span>
+    </footer>
+    
+</body>
+</html>

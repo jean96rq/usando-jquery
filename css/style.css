@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    transition: all 0.3s;
+}
+.selectorTema{
+    position: fixed;
+    top:40%;
+    left:2px;
+    background-color: rgba(51,51,51,0.5);
+    padding:10px;
+    border-radius: 4px;
+    z-index:999999;
+}
+.selectorTema .temaClaro{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.selectorTema .temaOscuro{
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#00171f;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+header h1{
+    font-size: 40px;
+    width: 320px;
+    background-color: rgba(247,224,24,1);
+    padding: 30px 20px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.btnMenu{
+    font-size: 30px;
+    color: rgba(247,224,24,1);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.menu{
+    padding: 20px 20px;
+    background-color: #333;
+    border-radius: 4px;
+}
+.menu li{
+    display: inline-block;
+    transition: all 300ms;
+    width: 20%;
+    min-width: 83px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: rgba(247,224,24,1);
+
+}
+.menu a:hover{
+   color:#fff;
+}
+.slider{
+    width: 80%;
+    margin: 0 auto;
+}
+.bx-wrapper,.bx-viewport{
+    border: none !important;
+    height: 300px!important;
+}
+
+.contenido{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.articulo{
+    width: 60%;
+    padding: 0 7px;
+    margin-bottom: 100px;
+}
+.articulo img{
+    width: 100%;
+}
+.contenido .post{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.post p{
+    text-align: justify;
+    
+}
+.post h2{
+   font-size: 35px;
+   color: #333;
+}
+.textoSobreMi{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+   color: #333;
+   text-align: center;
+    
+}
+.post span{
+    font-size: 15px;
+    display: block;
+    padding: 10px 5px;
+    font-weight: lighter;
+    color: #ccc;
+}
+.post p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.post a{
+   float: right;
+}
+.sideBar{
+    width: 30%;
+}
+.sideBar h4{
+margin-top: 60px;
+ text-align: center;
+ background: #333;
+ height: 40px;
+ line-height: 40px;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-family: sans-serif;
+ color:rgba(247,224,24,1);
+}
+.sideBar .about p{
+   text-align: center;
+}
+.sideBar .about img{
+    width: 100%;
+    border-radius: 3px;
+}
+.arcondeon{
+    width: 60%;
+    padding: 0 7px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.arcondeon span{
+    display: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    background-color: #333;
+    outline:none;
+    border: none;
+    height: 24px;
+    border-radius: 0;
+    text-align: center;
+    margin-top: 0;
+    color: rgba(247,224,24,1);
+    
+}
+.ui-accordion .ui-accordion-header{
+    background-color: #333;
+    color: rgba(247,224,24,1);
+    text-align: center;
+    margin-top: 0px;
+    border: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.ui-accordion .ui-accordion-content{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contenedorReloj{
+    width: 60%;
+    padding: 0 7px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    margin: 0 auto;
+    
+}
+.reloj{
+    transform: translateY(60px) ;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #546136;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.reloj span img{
+    width: 50px;
+}
+
+
+.button-js{
+    padding: 10px 20px;
+    background-color: rgba(247,224,24,1);
+    color: #333;
+    text-decoration: none;
+    transition: all 300ms;
+    border-radius: 2px;
+    
+}
+.button-js:hover{
+  
+    background-color:#333;
+    color:rgba(247,224,24,1);
+    
+}
+.formularioContacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.formularioContacto input{
+    padding:10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.formularioContacto label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.formularioContacto button{
+    margin-top: 10px;
+    max-width: 100px;
+    padding: 10px 20px;
+    background-color:  #333;
+    color: rgba(247,224,24,1);
+    text-decoration: none;
+    transition: all 300ms;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formularioContacto select{
+    padding:10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    outline:none;
+    cursor: pointer;
+    color:#797979;
+
+
+}
+.formularioContacto span{
+    margin-top: 10px;
+display: block;
+text-align: center;
+background-color: red;
+padding: 20px;
+}
+
+
+
+/* -------------------------------------------- */
+.formLogin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.formLogin input{
+    padding:10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.formLogin label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.formLogin button{
+    margin-top: 10px;
+    max-width: 100px;
+    padding: 10px 20px;
+    background-color:  #333;
+    color: rgba(247,224,24,1);
+    text-decoration: none;
+    transition: all 300ms;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subir{
+    background-color: rgba(51,51,51,0.5);
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+.subir a{
+    color: #ccc;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.subir a:hover{
+    color: #000000;
+}
+footer{
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgba(247,224,24,1);
+    text-align: center;
+    position: relative;
+}
+footer small{
+    line-height: 60px;
+}
+@media only screen and (max-width:890px) {
+
+    nav{
+        text-align: center;
+    }
+    header{
+        width: 80%;
+        
+    }
+    .menu{
+        padding:0;
+        width: 100%;
+        background-color: #333;
+        border-radius: 4px;
+        display: none;
+    }
+    .menu li{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .btnMenu{
+        top: 20px;  
+        display: block; 
+    }
+}
+
+
+@media only screen and (max-width:690px) {
+
+    .contenido{
+        flex-direction: column;
+    }
+    .articulo{
+        width: 100%;
+    }
+    .arcondeon{
+        width: 100%;
+    }
+    .contenido .sideBar{
+        width: 100%;
+    }
+    header h1{
+        font-size: 20px;
+        width: 200px;
+        text-align: center;
+        padding: 10px 5px;
+    }
+    .btnMenu{
+        top: 2px;   
+        font-size: 24px;
+    }
+    .bx-wrapper,.bx-viewport{
+        
+        height:170px!important;
+    }
+}
+
